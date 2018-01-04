@@ -43,11 +43,11 @@
 	
   </dependencies>
 	<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>CTLINDT-0452-snapshots</name>
-        <url>http://localhost:8091/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>CTLINDT-0452-releases</name>
+        <url>http://localhost:8091/artifactory/libs-release-local</url>
+    </repository>
 </distributionManagement>
 	<build>
     <finalName>JavaVulnerableLab</finalName>
