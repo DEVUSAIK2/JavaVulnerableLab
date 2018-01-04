@@ -40,8 +40,16 @@
     <version>2.3</version>
     <scope>provided</scope>
 </dependency>	 	
+	
   </dependencies>
-  <build>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>CTLINDT-0452-releases</name>
+        <url>http://localhost:8091/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
+	<build>
     <finalName>JavaVulnerableLab</finalName>
   </build>
 </project>
